@@ -1,3 +1,5 @@
+# django_blog_2/blogging/admin.py
+
 from django.contrib import admin
 from blogging.models import Post, Category
 

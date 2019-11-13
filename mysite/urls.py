@@ -1,3 +1,4 @@
+# django_blog_2/mysite/urls.py
 """mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:

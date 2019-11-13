@@ -1,3 +1,4 @@
+# django_blog_2/blogging/urls.py
 from django.urls import path
 from blogging.views import list_view, detail_view
 

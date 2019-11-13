@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# django_blog_2/manage.py
 import os
 import sys
 
