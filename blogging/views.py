@@ -31,7 +31,6 @@ def list_view(request):
 #     body = template.render(context)
 #     return HttpResponse(body, content_type="text/html")
 
-
 def stub_view(request, *args, **kwargs):
     body = "Stub View\n\n"
     if args:
@@ -42,3 +41,13 @@ def stub_view(request, *args, **kwargs):
         body += "\n".join(["\t%s: %s" % i for i in kwargs.items()])
     return HttpResponse(body, content_type="text/plain")
 
+def index(request):
+    """
+    from the medium post 
+    """
+    context = {
+        'posts': Post.objects.order_by('-date')
+        if request.user.is_authenticated else []
+    }
+
+    return render(request, 'blogging/index.html', context)

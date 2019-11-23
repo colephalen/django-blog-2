@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # django_blog_2/manage.py
+# google client id:
+# 852917162048-1l90v70mp7hmksci88iqpq8o1agut1ih.apps.googleusercontent.com
+# google secret client
+# ybYWCGjvQpxRDWWeb_Qz4oQU
 import os
 import sys
 

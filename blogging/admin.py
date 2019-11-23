@@ -1,6 +1,6 @@
 # django_blog_2/blogging/admin.py
 
-# got this from the week's class, unsure what the breakdown is on each class and how they work
+# got this from the week's class and collaborated with andrew and jon
 
 from django.contrib import admin
 from blogging.models import Post, Category
