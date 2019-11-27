@@ -1,4 +1,5 @@
 # this was taken from the lesson09 content 
+# no module named dj_database_url ha ha...
 
 import os
 
